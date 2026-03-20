@@ -153,3 +153,7 @@ Use this exact sequence on a fresh machine:
 
 - training.ipynb is available for notebook-based experimentation.
 - The script pipeline in src/ is the recommended path for reproducible training and deployment.
+
+## License
+
+MIT © [champst2004](https://github.com/champst2004/ML_FakeReviewDetector/blob/master/LICENSE)

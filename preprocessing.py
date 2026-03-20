@@ -19,6 +19,10 @@ stop_words = set(stopwords.words("english"))
 ps = PorterStemmer()
 
 def preprocess(text):
+    if not isinstance(text, str):
+        if text is None or text != text:
+            return ""
+        text = str(text)
     text = text.lower()
     text = re.sub(r'[^a-zA-Z]', ' ', text)
     words = text.split()

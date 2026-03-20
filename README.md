@@ -31,7 +31,8 @@ ML_FakeReviewDetector/
 |   |-- train.py
 |   `-- predict.py
 |-- training.ipynb
-`-- README.md
+|-- requirements.txt
+|-- README.md
 ```
 
 ## Dataset
